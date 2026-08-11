@@ -1,0 +1,31 @@
+# Environment & secrets
+.env
+.env.local
+*.env
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Foundry build artifacts
+out/
+cache/
+broadcast/
+
+# Bun
+.bun/
+
+# OS/editor junk
+.DS_Store
+*.log
+
+# Foundry dependencies (restore via: forge install)
+
+# Foundry dependencies (restore via: forge install)
+sesi-2-3-bounty-escrow/lib/
+sesi-4-factory-oracle/SmartContract/lib/
